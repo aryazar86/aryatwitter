@@ -1,0 +1,17 @@
+default: &default
+  adapter: postgresql
+  pool: 5
+  username: airanpour
+  password: password
+
+development:
+  <<: *default
+  database: aryatwitter_development
+
+test:
+  <<: *default
+  database: aryatwitter_test
+
+production:
+  <<: *default
+  database: aryatwitter_production
