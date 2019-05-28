@@ -7,6 +7,6 @@ class TalkToTwitterController < ApplicationController
       config.consumer_secret = ENV["API_SECRET_KEY"]
     end
 
-    render json: client.user_timeline("aryairanpour")
+    render json: client.user_timeline(params[:tweeterer])
   end
 end
