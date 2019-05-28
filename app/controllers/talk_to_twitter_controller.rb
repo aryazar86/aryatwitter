@@ -1,5 +1,3 @@
-require 'Twitter'
-
 class TalkToTwitterController < ApplicationController
   def getTweets 
     client = Twitter::REST::Client.new do |config|
