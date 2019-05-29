@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+First time using Rails 5, wanted to create a simple Twitter retrieval mechanism to grab the latest tweets and send them via json to clients. 
 
-Things you may want to cover:
+Using the twitter gem for the actual "getting the tweets" part.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Also, useful for utilizing rack-cors to allow for CORS on a specific set of domains (set in environmental variable).
